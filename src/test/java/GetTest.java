@@ -12,8 +12,6 @@ public class GetTest extends BaseApiTest {
     @Autowired
     private Config config;
 
-    private RequestSpecification requestSpecification;
-
     @Test
     public void getMainPage() {
         given()

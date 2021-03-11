@@ -8,5 +8,6 @@ public abstract class BaseApiTest extends BaseTest {
     public void setUp(ITestContext testContext) {
         super.setUp(testContext);
         RestAssured.enableLoggingOfRequestAndResponseIfValidationFails();
+        RestAssured.useRelaxedHTTPSValidation();
     }
 }

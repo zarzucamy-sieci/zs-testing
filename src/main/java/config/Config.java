@@ -19,5 +19,4 @@ public class Config {
 
     @Value("https://zarzucamysieci.pl")
     private String host;
-
 }
